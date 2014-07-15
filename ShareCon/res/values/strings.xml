@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShareCon</string>
+    <string name="picture_storage">Pictures</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Number Fragment -->
+    <string name="edit_txt_number_hint">Enter Number</string>
+    <string name="button_current_number">Current Number</string>
+    <string name="button_phonebook">Phonebook</string>
+    <string name="edit_txt_pswd_hint">Password</string>
+    <string name="edit_txt_conf_pswd_hint">Confirm Password</string>
+    <string name="button_sign_in">SIGN IN</string>
+    <string name="txt_view_forgot_pswd">FORGOT PASSWORD</string>
+    <string name="txt_view_register">REGISTER</string>
+    <string name="button_register">REGISTER</string>
+    <string name="txt_view_sign_in">SIGN IN</string>
+    <string name="toast_enter_number_pswd">Enter Number and Password</string>
+    <string name="toast_enter_number">Enter Number</string>
+    <string name="toast_enter_pswd">Enter Password</string>
+    <string name="toast_confirm_pswd">Confirm Password</string>
+    
+
+    <!-- Menu Register Number -->
+    <string name="menu_item_register">Register</string>
+
+    <!-- Image Fragment and Menu -->
+    <string name="menu_item_next">Next</string>
+    <string name="button_choose_pic">Choose Picture</string>
+    <string name="content_desc_profile_image">Profile Image</string>
+
+    <!-- Choose Image Pop-up -->
+    <string name="title_choose_pic">Choose Picture</string>
+
+    <!-- Details Fragment -->
+    <string name="edit_txt_name_hint">Name</string>
+    <string name="edit_txt_middle_name">Middle Name</string>
+    <string name="edit_txt_last_name">Last Name</string>
+    <string name="txt_view_phone">PHONE</string>
+    <string name="edit_txt_phone">Phone</string>
+    <string name="edit_txt_im">IM</string>
+    <string name="txt_view_im">IM</string>
+    <string name="edit_txt_date">Date</string>
+    <string name="txt_view_email">EMAIL</string>
+    <string name="edit_txt_email">Email</string>
+    <string name="txt_view_address">ADDRESS</string>
+    <string name="edit_txt_address">Address</string>
+    <string name="button_add_more_fields">Add More Fields</string>
+    <string name="title_more_fields">Extra Fields</string>
+    <string name="txt_view_website">WEBSITE</string>
+    <string name="txt_view_phonetic_name">PHONETIC NAME</string>
+    <string name="edit_txt_name_prefix_hint">Name Prefix</string>
+    <string name="edit_txt_name_suffix_hint">Name Suffix</string>
+    <string name="edit_txt_first_name_hint">First Name</string>
+    <string name="txt_view_nickname">NICKNAME</string>
+    <string name="txt_view_internet_call">INTERNET CALL</string>
+    <string name="txt_view_notes">NOTES</string>
+    <string name="txt_view_name">NAME</string>
+
+    <string-array name="phone_options">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="email_options">
+        <item>Work</item>
+        <item>Home</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="address_options">
+        <item>Work</item>
+        <item>Home</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="im_options">
+        <item>Aim</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Hangouts</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+        <item>Custom</item>
+    </string-array>
+
+    <!-- Menu Details -->
+    <string name="menu_item_finish">Finish</string>
+    
+    <!-- Fragment Sync -->
+    <string name="button_sync">SYNC</string>
+    
+    <!-- Menu SignIn -->
+    <string name="menu_item_sign_out">Sign Out</string>
+    <string name="menu_item_edit">Edit</string>
+
+</resources>

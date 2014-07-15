@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="options">
+        <item>"Take Photo"</item>
+        <item>"Choose Photo"</item>
+    </array>
+    <array name="more_fields_options">
+        <item>Phonetic Name</item>
+        <item>IM</item>
+        <item>Notes</item>
+        <item>Nickname</item>
+        <item>Website</item>
+        <item>Internet Call</item>
+    </array>
+
+</resources>

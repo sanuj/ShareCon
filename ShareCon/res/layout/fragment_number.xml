@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_buttons_padding"
+    tools:context="com.stad.sharecon.activity.RegisterActivity$NumberFragment" >
+
+    <EditText
+        android:id="@+id/edit_txt_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/edit_txt_margin"
+        android:focusableInTouchMode="true"
+        android:hint="@string/edit_txt_number_hint"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_txt_pswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/edit_txt_margin"
+        android:hint="@string/edit_txt_pswd_hint"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edit_txt_conf_pswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/edit_txt_margin"
+        android:hint="@string/edit_txt_conf_pswd_hint"
+        android:inputType="textPassword"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_current_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/button_padding"
+            android:text="@string/button_current_number" />
+
+        <!-- <Button
+            android:id="@+id/button_phonebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/button_padding"
+            android:text="@string/button_phonebook" /> -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/button_padding"
+        android:text="@string/button_sign_in" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/button_padding"
+        android:text="@string/button_register"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding" >
+
+        <TextView
+            android:id="@+id/txt_view_forgot_pswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/txt_view_forgot_pswd" />
+
+        <TextView
+            android:id="@+id/txt_view_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/txt_view_register" />
+
+        <TextView
+            android:id="@+id/txt_view_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/txt_view_sign_in"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
